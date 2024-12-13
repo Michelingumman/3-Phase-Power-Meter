@@ -80,14 +80,14 @@ void setup(){
   startMillis = millis();
   currentMillis = startMillis;
 
-  emon_p1.voltage(VOLT_PHASE1, 164, 2.7); // Voltage: input pin, calibration, phase_shift
-  emon_p1.current(CURRENT_PHASE1, 2); // Current: input pin, calibration.
+  emon_p1.voltage(VOLT_PHASE1, 190, 2.7); // Voltage: input pin, calibration, phase_shift
+  emon_p1.current(CURRENT_PHASE1, 1.2); // Current: input pin, calibration.
 
-  emon_p2.voltage(VOLT_PHASE2, 165, 2.7);
-  emon_p2.current(CURRENT_PHASE2, 2); 
+  emon_p2.voltage(VOLT_PHASE2, 190, 2.7);
+  emon_p2.current(CURRENT_PHASE2, 1.2); 
 
-  emon_p3.voltage(VOLT_PHASE3, 173, 2.7);
-  emon_p3.current(CURRENT_PHASE3, 2); 
+  emon_p3.voltage(VOLT_PHASE3, 200, 2.7);
+  emon_p3.current(CURRENT_PHASE3, 1.2); 
 }
 
 
